@@ -5,17 +5,17 @@ Learning Objective: using Proximity (TYPE_PROXIMITY) sensor, develop mobile clap
 
 Clap App Launched Successfully
 
-![1](https://user-images.githubusercontent.com/111547793/229615334-7f629357-e5b4-4b1c-90f6-ad116462727e.png)
+<img width="394" alt="Screenshot 2024-11-03 at 5 32 40 PM" src="https://github.com/user-attachments/assets/2d8da4a1-fb27-4c49-a685-30d73b390535">
 
 In the onSensorChanged() method, I will check the distance measured by the mProximity sensor with event.values[0]. If the distance is less than or equal to 5, I will display a Toast message saying Clapping Started and play a sound using the MediaPlayer.start() method.
 
 The clap_sound media file is available in the raw directory.
 
-![2](https://user-images.githubusercontent.com/111547793/229615347-292062a7-00ac-40cc-b6dd-985b2b4e2f72.png)
+<img width="1440" alt="Screenshot 2024-11-03 at 5 32 29 PM" src="https://github.com/user-attachments/assets/fbf14a10-ec7c-4dde-94e0-b9e5baea9e02">
 
 If the distance is greater than 5, I will display a Toast message saying Clapping Stopped as shown in the below screenshot and mediaPlayer will not play any sound.
+<img width="240" alt="Screenshot 2024-11-03 at 5 32 53 PM" src="https://github.com/user-attachments/assets/98c4c58c-4339-4ed0-846e-5df834ecf3ab">
 
-![3](https://user-images.githubusercontent.com/111547793/229615370-18ef8d71-30f2-4186-8646-6cf23f2d3bd2.png)
 
 
 
